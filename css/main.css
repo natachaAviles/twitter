@@ -1,0 +1,41 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	background-color:white;
+}
+header {
+	background-color:#1DA1F2;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	border-radius:5px;
+}
+.title {
+	font-family: 'Viga', sans-serif;
+	color:white;
+	font-weight:bolder;
+	font-size:40px;
+	float:left;
+}
+.icon-twitter {
+	font-size:35px;
+	color:white;
+	margin-left:1%;
+}
+.form-group {
+	margin-top:3%;
+}
+.btn {
+	background-color:#1DA1F2;
+	color:white;
+	font-weight:bold;
+	padding-left:2%;
+	padding-right:2%;
+	margin-top:1%;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+/* to do list*/
+
