@@ -4,41 +4,41 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="fonts/fontsicomoon/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<title>Twitter</title>
 </head>
 <body>
 	<header>
 		<nav class="navbar">
 			<div class="container-fluid">
-				<h1 class="title">TO DO APP</h1><span class="icon-twitter"></span>
+				<i class="fa fa-twitter-square" aria-hidden="true"></i><h1 class="title">TodoApp</h1>
 			</div>
 		</nav>
 	</header>
 	<section>
-		<div class="container-fluid">
+		<div class="container-fluid contenedorgral">
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="form-group">
-    					<textarea class="form-control" placeholder="Agregue su texto aquí"></textarea>
-    					<button type="button" onclick="AgregarTarea()" class="btn">Agregar<span class="glyphicon glyphicon-plus"></span></button>
-    				</div>
+						<textarea class="form-control" placeholder="Agregue su texto aquí"></textarea>
+						<button type="button" id="btn" onclick="agregarTarea()"><i class="fa fa-plus" aria-hidden="true"></i>Agregar</button>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div id="contenedor-tareas"></div>
-				</div>
-			</div>
+		<div class="mistareas">	
+			<h4 class="subtitle">Mis To Do's</h4>
+			<div id="contenedor-tareas">
+			</div>	
 		</div>
 	</section>
-	<script type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
